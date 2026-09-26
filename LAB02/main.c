@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 
 	scanf("%d%*c", &chave);
 
-	printf("%d", buscaBinaria(vetor, tamanho, chave));
+	printf("O numero %d tem %d ocorrencias no vetor\n", chave, buscaBinaria(vetor, tamanho, chave));
 
 	free(vetor);
 	return 0;
